@@ -1,0 +1,19 @@
+{
+  "name": "swaglabs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test test.spec.js"
+  },
+  "keywords": [],
+  "author": "troyano85",
+  "license": "ISC",
+  "description": "automation Swag Labs",
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.5"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
